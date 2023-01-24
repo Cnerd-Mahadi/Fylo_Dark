@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .safe-container {
+    @apply container mx-auto px-6;
+  }
+  .both-flex {
+    @apply flex flex-col md:flex-row;
+  }
+}
+
+.ficon:hover {
+  filter: invert(23%) sepia(9%) saturate(6148%) hue-rotate(125deg)
+    brightness(90%) contrast(95%);
+}
+
+.mode:hover {
+  filter: invert(74%) sepia(26%) saturate(1045%) hue-rotate(103deg)
+    brightness(91%) contrast(89%);
+}
